@@ -1,0 +1,70 @@
+{
+	"info": {
+		"_postman_id": "f35859fa-ed4a-4b9b-a145-ef9591aa5878",
+		"name": "IS_Run0",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "7504733",
+		"_collection_link": "https://magravis.postman.co/workspace/Team-Workspace~901adea9-72a9-4809-8170-0d0159447eee/collection/7504733-f35859fa-ed4a-4b9b-a145-ef9591aa5878?action=share&source=collection_link&creator=7504733"
+	},
+	"item": [
+		{
+			"name": "MAG_Update account",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "App {{apikey}}",
+						"type": "text"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Cookie1",
+						"value": "TEX={{accid}}",
+						"type": "text"
+					},
+					{
+						"key": "Cookie2",
+						"value": "TEX={{apikey}}",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n//\"name\":\"New name\",\r\n\"enabled\": false\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://wyyxd.api.infobip.com/settings/1/accounts/{{accid}}"
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}

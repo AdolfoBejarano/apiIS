@@ -1,0 +1,151 @@
+{
+	"info": {
+		"_postman_id": "2c0743d1-5060-463d-967a-7ace46e907de",
+		"name": "IS All Accs Name+Status",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "7504733",
+		"_collection_link": "https://magravis.postman.co/workspace/Team-Workspace~901adea9-72a9-4809-8170-0d0159447eee/collection/7504733-2c0743d1-5060-463d-967a-7ace46e907de?action=share&source=collection_link&creator=7504733"
+	},
+	"item": [
+		{
+			"name": "All Accs Name+Status-mag",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"//postman.setNextRequest(null);"
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "App e78daed38b750ddf0c327d699948264d-5b7945bf-0f0c-43b9-8065-b08d038619b8",
+						"type": "text",
+						"description": "ApiKeyParentAcc"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://degl8.api.infobip.com/settings/1/accounts?limit=1000&name=",
+					"protocol": "https",
+					"host": [
+						"degl8",
+						"api",
+						"infobip",
+						"com"
+					],
+					"path": [
+						"settings",
+						"1",
+						"accounts"
+					],
+					"query": [
+						{
+							"key": "limit",
+							"value": "1000"
+						},
+						{
+							"key": "name",
+							"value": ""
+						},
+						{
+							"key": "enabled",
+							"value": "",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "All Accs Name+Status-cm",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"//postman.setNextRequest(null);"
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "App 4458ce84256479da378d07b40f5899fa-233c5b07-a85a-4193-82e1-c837009e686b",
+						"type": "text",
+						"description": "ApiKeyParentAcc"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://degl8.api.infobip.com/settings/1/accounts?limit=1000&name=",
+					"protocol": "https",
+					"host": [
+						"degl8",
+						"api",
+						"infobip",
+						"com"
+					],
+					"path": [
+						"settings",
+						"1",
+						"accounts"
+					],
+					"query": [
+						{
+							"key": "limit",
+							"value": "1000"
+						},
+						{
+							"key": "name",
+							"value": ""
+						},
+						{
+							"key": "enabled",
+							"value": "",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

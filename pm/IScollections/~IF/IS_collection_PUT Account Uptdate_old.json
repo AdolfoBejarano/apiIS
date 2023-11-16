@@ -1,0 +1,130 @@
+{
+	"info": {
+		"_postman_id": "5eee3354-e9bf-4837-b39a-26083c5dbd1c",
+		"name": "IS_PUT Account Uptdate",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "7504733",
+		"_collection_link": "https://magravis.postman.co/workspace/Team-Workspace~901adea9-72a9-4809-8170-0d0159447eee/collection/7504733-5eee3354-e9bf-4837-b39a-26083c5dbd1c?action=share&source=collection_link&creator=7504733"
+	},
+	"item": [
+		{
+			"name": "MAG_Account Update",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "key",
+							"value": "",
+							"type": "string"
+						},
+						{
+							"key": "value",
+							"value": "",
+							"type": "string"
+						},
+						{
+							"key": "in",
+							"value": "query",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "App {{apikeypa}}",
+						"type": "text",
+						"description": "ApiKeyParentAcc"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n//\"name\":\"Pizpepi\",\r\n\"enabled\": false\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://wyyxd.api.infobip.com/settings/1/accounts/{{accid}}",
+					"protocol": "https",
+					"host": [
+						"wyyxd",
+						"api",
+						"infobip",
+						"com"
+					],
+					"path": [
+						"settings",
+						"1",
+						"accounts",
+						"{{accid}}"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					"//pm.request.headers.remove('Authorization');",
+					"//pm.request.headers.add({key: 'Authorization', value: 'App e78daed38b750ddf0c327d699948264d-5b7945bf-0f0c-43b9-8065-b08d038619b8' });",
+					"//pm.request.headers.add({key: 'Authorization', value: 'App 4458ce84256479da378d07b40f5899fa-233c5b07-a85a-4193-82e1-c837009e686b' });"
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "apikeymag",
+			"value": "e78daed38b750ddf0c327d699948264d-5b7945bf-0f0c-43b9-8065-b08d038619b8",
+			"type": "string"
+		},
+		{
+			"key": "apikeycm",
+			"value": "4458ce84256479da378d07b40f5899fa-233c5b07-a85a-4193-82e1-c837009e686b",
+			"type": "string"
+		}
+	]
+}

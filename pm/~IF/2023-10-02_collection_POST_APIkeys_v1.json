@@ -1,0 +1,99 @@
+{
+	"info": {
+		"_postman_id": "25c2d566-f38b-4d80-975a-54a1a92c8035",
+		"name": "IS_Run0",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "7504733",
+		"_collection_link": "https://magravis.postman.co/workspace/Team-Workspace~901adea9-72a9-4809-8170-0d0159447eee/collection/7504733-25c2d566-f38b-4d80-975a-54a1a92c8035?action=share&source=collection_link&creator=7504733"
+	},
+	"item": [
+		{
+			"name": "Create API key",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic {{basicauth}}",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "",
+						"value": "",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n//\"allowedIPs\": [\"string\"],\r\n\"enabled\": true,\r\n\"name\": \"APIkey01\",\r\n\"permissions\": [\"ALL\"],\r\n\"validFrom\": \"2023-08-30T22:05:51Z\",\r\n\"validTo\": \"2030-08-30T22:05:51Z\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://degl8.api.infobip.com/settings/1/accounts/{{accid}}/api-keys",
+					"protocol": "https",
+					"host": [
+						"degl8",
+						"api",
+						"infobip",
+						"com"
+					],
+					"path": [
+						"settings",
+						"1",
+						"accounts",
+						"{{accid}}",
+						"api-keys"
+					],
+					"query": [
+						{
+							"key": "limit",
+							"value": "1000",
+							"disabled": true
+						},
+						{
+							"key": "enabled",
+							"value": "",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}

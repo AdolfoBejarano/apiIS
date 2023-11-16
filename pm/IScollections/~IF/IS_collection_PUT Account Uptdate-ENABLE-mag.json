@@ -1,0 +1,97 @@
+{
+	"info": {
+		"_postman_id": "522bdd63-add5-4d5e-a956-2cc02c5110fe",
+		"name": "IS_PUT Account Uptdate-ENABLE-mag",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "7504733",
+		"_collection_link": "https://magravis.postman.co/workspace/Team-Workspace~901adea9-72a9-4809-8170-0d0159447eee/collection/7504733-522bdd63-add5-4d5e-a956-2cc02c5110fe?action=share&source=collection_link&creator=7504733"
+	},
+	"item": [
+		{
+			"name": "MAG_Account Update-ENABLE-mag",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							"//pm.request.headers.remove('Authorization');\r",
+							"//pm.request.headers.upsert({key: 'Authorization', value: 'App e78daed38b750ddf0c327d699948264d-5b7945bf-0f0c-43b9-8065-b08d038619b8' });\r",
+							"//pm.request.headers.upsert({key: 'Authorization', value: 'App 4458ce84256479da378d07b40f5899fa-233c5b07-a85a-4193-82e1-c837009e686b' });"
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"//postman.setNextRequest(null);"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "apikey",
+					"apikey": [
+						{
+							"key": "in",
+							"value": "query",
+							"type": "string"
+						},
+						{
+							"key": "key",
+							"value": "App",
+							"type": "string"
+						},
+						{
+							"key": "value",
+							"value": "e78daed38b750ddf0c327d699948264d-5b7945bf-0f0c-43b9-8065-b08d038619b8",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "App {{apikey}}",
+						"type": "text"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n//\"name\":\"New name\",\r\n\"enabled\": true\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://wyyxd.api.infobip.com/settings/1/accounts/{{accid}}",
+					"protocol": "https",
+					"host": [
+						"wyyxd",
+						"api",
+						"infobip",
+						"com"
+					],
+					"path": [
+						"settings",
+						"1",
+						"accounts",
+						"{{accid}}"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

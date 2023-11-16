@@ -1,0 +1,79 @@
+{
+	"info": {
+		"_postman_id": "e2fde615-5933-4ce3-94c9-dd451ed7f15e",
+		"name": "IS All Accs Name+Status-cm",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "7504733",
+		"_collection_link": "https://magravis.postman.co/workspace/Team-Workspace~901adea9-72a9-4809-8170-0d0159447eee/collection/7504733-e2fde615-5933-4ce3-94c9-dd451ed7f15e?action=share&source=collection_link&creator=7504733"
+	},
+	"item": [
+		{
+			"name": "All Accs Name+Status-cm",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"//postman.setNextRequest(null);"
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "App {{apikey}}",
+						"type": "text"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://wyyxd.api.infobip.com/settings/1/accounts?name=&limit=1000&enabled=",
+					"protocol": "https",
+					"host": [
+						"wyyxd",
+						"api",
+						"infobip",
+						"com"
+					],
+					"path": [
+						"settings",
+						"1",
+						"accounts"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": ""
+						},
+						{
+							"key": "limit",
+							"value": "1000"
+						},
+						{
+							"key": "enabled",
+							"value": ""
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,119 @@
+{
+	"info": {
+		"_postman_id": "988fc9fb-2e55-4259-a364-112d83dcf1f3",
+		"name": "IS_Run1",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "7504733",
+		"_collection_link": "https://magravis.postman.co/workspace/Team-Workspace~901adea9-72a9-4809-8170-0d0159447eee/collection/7504733-988fc9fb-2e55-4259-a364-112d83dcf1f3?action=share&source=collection_link&creator=7504733"
+	},
+	"item": [
+		{
+			"name": "Get API keys_v2",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Basic amVzcDpCaW5hcmlvMTA=",
+						"type": "text"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "Cookie1",
+						"value": "TEX={{accid}}",
+						"type": "text"
+					},
+					{
+						"key": "Cookie2",
+						"value": "TEX={{basicauth}}",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://degl8.api.infobip.com/settings/1/accounts/{{accid}}/api-keys",
+					"protocol": "https",
+					"host": [
+						"degl8",
+						"api",
+						"infobip",
+						"com"
+					],
+					"path": [
+						"settings",
+						"1",
+						"accounts",
+						"{{accid}}",
+						"api-keys"
+					],
+					"query": [
+						{
+							"key": "limit",
+							"value": "1000",
+							"disabled": true
+						},
+						{
+							"key": "enabled",
+							"value": "",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "accid",
+			"value": "CD7FF5B98042197EB222416F049E4576",
+			"type": "string"
+		},
+		{
+			"key": "basicauth",
+			"value": "amVzcDpCaW5hcmlvMTA=",
+			"type": "string"
+		}
+	]
+}

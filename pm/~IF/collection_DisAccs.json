@@ -1,0 +1,89 @@
+{
+	"info": {
+		"_postman_id": "f35859fa-ed4a-4b9b-a145-ef9591aa5878",
+		"name": "IS_Run0",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "7504733",
+		"_collection_link": "https://magravis.postman.co/workspace/Team-Workspace~901adea9-72a9-4809-8170-0d0159447eee/collection/7504733-f35859fa-ed4a-4b9b-a145-ef9591aa5878?action=share&source=collection_link&creator=7504733"
+	},
+	"item": [
+		{
+			"name": "MAG_Update account",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "App {{apikey}}",
+						"type": "text"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n//\"name\":\"New name\",\r\n\"enabled\": false\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://wyyxd.api.infobip.com/settings/1/accounts/{{accid}}",
+					"protocol": "https",
+					"host": [
+						"wyyxd",
+						"api",
+						"infobip",
+						"com"
+					],
+					"path": [
+						"settings",
+						"1",
+						"accounts",
+						"{{accid}}"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "accid",
+			"value": "CD7FF5B98042197EB222416F049E4576",
+			"type": "string",
+			"disabled": true
+		},
+		{
+			"key": "basicauth",
+			"value": "amVzcDpCaW5hcmlvMTA=",
+			"type": "string",
+			"disabled": true
+		}
+	]
+}
