@@ -1,0 +1,22 @@
+{
+  "name": "hbs",
+  "version": "1.0.0",
+  "description": "hbs",
+  "main": "index.js",
+  "scripts": {
+    "test": "testhbs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "hbs"
+  },
+  "keywords": [
+    "hbs"
+  ],
+  "author": "abf",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-handlebars": "^7.1.2"
+  }
+}
