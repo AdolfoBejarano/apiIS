@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "airplane": "^0.2.83",
-    "axios": "^1.6.2"
+    "axios": "^1.6.2",
+    "request": "^2.88.2"
   }
 }
