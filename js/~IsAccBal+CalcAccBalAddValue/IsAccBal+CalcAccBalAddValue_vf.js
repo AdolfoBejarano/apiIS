@@ -61,6 +61,7 @@ async function () {
 
 let AccBalAdd = AccBalRec-data.balance;
 console.log('\n');
+console.log('All Body            :', data);
 console.log('FilePath/Name       :', FilePath,'/',FileName);
 console.log('AccBal-Currency     :', data);
 console.log('AccName             :', AccName);
