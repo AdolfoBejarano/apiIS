@@ -1,0 +1,15 @@
+AccName,AccBalDate,AccBalRec,AccBalCur,AccBalAdd,Currency,FilePath,FileName
+centercit ,Tue Dec 05 2023 08:03:30 GMT-0500 (Colombia Standard Time),500000,483567,16433,CREDITS,C:/API/apiIS/js/~ForLoop+Delay+WriteFileCSV/results,2023-12-05.080330_IsAccBal-IsAcssOn.csv
+vendty    ,Tue Dec 05 2023 08:03:30 GMT-0500 (Colombia Standard Time),60000,57796,2204,CREDITS,C:/API/apiIS/js/~ForLoop+Delay+WriteFileCSV/results,2023-12-05.080330_IsAccBal-IsAcssOn.csv
+jcgmas    ,Tue Dec 05 2023 08:03:30 GMT-0500 (Colombia Standard Time),10000,9802,198,CREDITS,C:/API/apiIS/js/~ForLoop+Delay+WriteFileCSV/results,2023-12-05.080330_IsAccBal-IsAcssOn.csv
+tgrp      ,Tue Dec 05 2023 08:03:30 GMT-0500 (Colombia Standard Time),3000,3000,0,CREDITS,C:/API/apiIS/js/~ForLoop+Delay+WriteFileCSV/results,2023-12-05.080330_IsAccBal-IsAcssOn.csv
+smtrc     ,Tue Dec 05 2023 08:03:30 GMT-0500 (Colombia Standard Time),10000,3067,6933,CREDITS,C:/API/apiIS/js/~ForLoop+Delay+WriteFileCSV/results,2023-12-05.080330_IsAccBal-IsAcssOn.csv
+millero   ,Tue Dec 05 2023 08:03:30 GMT-0500 (Colombia Standard Time),10000,7448,2552,CREDITS,C:/API/apiIS/js/~ForLoop+Delay+WriteFileCSV/results,2023-12-05.080330_IsAccBal-IsAcssOn.csv
+frelle    ,Tue Dec 05 2023 08:03:30 GMT-0500 (Colombia Standard Time),50000,45475,4525,CREDITS,C:/API/apiIS/js/~ForLoop+Delay+WriteFileCSV/results,2023-12-05.080330_IsAccBal-IsAcssOn.csv
+trda      ,Tue Dec 05 2023 08:03:30 GMT-0500 (Colombia Standard Time),15000,14441.4,558.6000000000004,CREDITS,C:/API/apiIS/js/~ForLoop+Delay+WriteFileCSV/results,2023-12-05.080330_IsAccBal-IsAcssOn.csv
+hisweb    ,Tue Dec 05 2023 08:03:30 GMT-0500 (Colombia Standard Time),10000,9961,39,CREDITS,C:/API/apiIS/js/~ForLoop+Delay+WriteFileCSV/results,2023-12-05.080330_IsAccBal-IsAcssOn.csv
+colmtv-f  ,Tue Dec 05 2023 08:03:30 GMT-0500 (Colombia Standard Time),14000,11985,2015,CREDITS,C:/API/apiIS/js/~ForLoop+Delay+WriteFileCSV/results,2023-12-05.080330_IsAccBal-IsAcssOn.csv
+tonla     ,Tue Dec 05 2023 08:03:30 GMT-0500 (Colombia Standard Time),3500,3500,0,CREDITS,C:/API/apiIS/js/~ForLoop+Delay+WriteFileCSV/results,2023-12-05.080330_IsAccBal-IsAcssOn.csv
+sucas     ,Tue Dec 05 2023 08:03:30 GMT-0500 (Colombia Standard Time),15000,0,15000,CREDITS,C:/API/apiIS/js/~ForLoop+Delay+WriteFileCSV/results,2023-12-05.080330_IsAccBal-IsAcssOn.csv
+auda      ,Tue Dec 05 2023 08:03:30 GMT-0500 (Colombia Standard Time),5000,4917,83,CREDITS,C:/API/apiIS/js/~ForLoop+Delay+WriteFileCSV/results,2023-12-05.080330_IsAccBal-IsAcssOn.csv
+supal     ,Tue Dec 05 2023 08:03:30 GMT-0500 (Colombia Standard Time),14600,60,14540,CREDITS,C:/API/apiIS/js/~ForLoop+Delay+WriteFileCSV/results,2023-12-05.080330_IsAccBal-IsAcssOn.csv
