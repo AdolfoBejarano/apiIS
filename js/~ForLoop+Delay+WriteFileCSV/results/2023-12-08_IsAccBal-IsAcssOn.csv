@@ -1,0 +1,5 @@
+AccName,AccBalDate,AccBalRec,AccBalCur,AccBalAdd,Currency,FilePath,FileName
+auda      ,Fri Dec 08 2023 09:47:06 GMT-0500 (Colombia Standard Time),5000,4861,139,CREDITS,C:/API/apiIS/js/~ForLoop+Delay+WriteFileCSV/results,2023-12-08_IsAccBal-IsAcssOn.csv
+vendty    ,Fri Dec 08 2023 09:47:06 GMT-0500 (Colombia Standard Time),60000,57796,2204,CREDITS,C:/API/apiIS/js/~ForLoop+Delay+WriteFileCSV/results,2023-12-08_IsAccBal-IsAcssOn.csv
+trda      ,Fri Dec 08 2023 09:47:06 GMT-0500 (Colombia Standard Time),15000,14412.4,587.6000000000004,CREDITS,C:/API/apiIS/js/~ForLoop+Delay+WriteFileCSV/results,2023-12-08_IsAccBal-IsAcssOn.csv
+frelle    ,Fri Dec 08 2023 09:47:06 GMT-0500 (Colombia Standard Time),50000,45475,4525,CREDITS,C:/API/apiIS/js/~ForLoop+Delay+WriteFileCSV/results,2023-12-08_IsAccBal-IsAcssOn.csv

@@ -18,7 +18,7 @@ export default airplane.task
   {
     slug: "isaccson_accbalfetch_accbaladd",
     name: "isaccson_accbalfetch_accbaladd",
-    description: "This is my task defined entirely in TypeScript!",
+    description: "This is my task defined entirely in JS!",
   },
 
 //START ApTask implementation
