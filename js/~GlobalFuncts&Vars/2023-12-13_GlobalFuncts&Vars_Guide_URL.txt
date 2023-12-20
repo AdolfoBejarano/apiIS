@@ -1,0 +1,1 @@
+https://stackoverflow.com/questions/35282812/global-variable-and-function-in-node-js

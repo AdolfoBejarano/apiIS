@@ -1,0 +1,6 @@
+{
+"client_id": "{{gdcid}}",
+"client_secret": "{{gdcs}}",
+"refresh_token": "{{gdrt}}",
+"grant_type": "refresh_token",
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://accounts.google.com/gsi/client" onload="initClient()" async defer></script>
+  </head>
+  <body>
+    <script>
+      var client;
+      function initClient() {
+        client = google.accounts.oauth2.initCodeClient({
+          client_id: '504472354814-brje8h1qe18asaoisujmcloilph0q5tc.apps.googleusercontent.com',
+          scope: 'https://www.googleapis.com/auth/calendar.readonly \
+                  https://www.googleapis.com/auth/photoslibrary.readonly',
+          ux_mode: 'redirect',
+          redirect_uri: 'YOUR_AUTHORIZATION_CODE_ENDPOINT_URI'
+        });
+      }
+      // Request an access token
+      function getAuthCode() {
+        // Request authorization code and obtain user consent
+        client.requestCode();
+      }
+    </script>
+    <button onclick="getAuthCode();">Load Your Calendar</button>
+  </body>
+</html>
