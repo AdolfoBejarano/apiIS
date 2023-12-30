@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "object-hash": "3.0.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-replace": "5.0.5",
+    "@vitejs/plugin-react": "4.1.0",
+    "vite": "4.5.0"
+  }
+}

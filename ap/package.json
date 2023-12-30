@@ -1,7 +1,19 @@
 {
   "dependencies": {
+    "@airplane/views": "^2.1.18",
+    "@google-cloud/storage": "^7.7.0",
+    "@mux/mux-node": "^7.3.3",
+    "@mux/upchunk": "^3.3.0",
     "airplane": "^0.2.83",
     "axios": "^1.6.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.5",
+    "@types/react": "^18.2.45",
+    "@types/react-dom": "^18.2.18",
+    "typescript": "^5.3.3"
   }
 }

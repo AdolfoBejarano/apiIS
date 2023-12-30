@@ -1,0 +1,7 @@
+# This file contains configuration for local resources, config variables, and environment variables.
+# For more information, see the docs on the dev config file: https://docs.airplane.dev/dev-lifecycle/dev-config-file
+resources: []
+configVars:
+    MUX_SECRET_KEY: OHphjryJnJolTB71w5ZQXjocWl8Ew+30w853uwoBPtfFJIX9c3LuWYExcxMg5x3HUU04VZEcPda
+    MUX_TOKEN: d8079055-9e6b-4ac6-ae98-193f5ef0f2e4
+envVars: {}
